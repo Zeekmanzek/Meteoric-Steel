@@ -1,0 +1,48 @@
+{
+    "block-anvilpart-base-steel": "Anvil Base (Steel)",
+	"block-anvilpart-top-steel": "Anvil Top (Steel)",
+
+	"game:block-anvilpart-base-meteoricsteel": "Anvil Base (Meteoric Steel)",
+	"game:block-anvilpart-top-meteoricsteel" : "Anvil Top (Meteoric Steel)",
+	"game:block-anvil-meteoricsteel" : "Meteoric Steel Anvil",
+    
+	"item-ingot-meteoricsteel": "Meteoric Steel Ingot",
+	"item-metalbit-meteoricsteel": "Meteoric Steel Bit",
+	"item-metalchain-meteoricsteel": "Meteoric Steel Chain",
+	"item-metallamellae-meteoricsteel": "Meteoric Steel Lamellae",
+	"item-metalnailsandstrips-meteoricsteel": "Meteoric Steel Nails and Strips",
+	"item-metalplate-meteoricsteel": "Meteoric Steel Plate",
+	"item-metalscale-meteoricsteel": "Meteoric Steel Scale",
+	"item-arrow-meteoricsteel": "Meteoric Steel Arrow",
+	"item-axe-felling-meteoricsteel": "Meteoric Steel Axe",
+	"item-blade-falx-meteoricsteel": "Meteoric Steel Falx",
+	"item-chisel-meteoricsteel": "Meteoric Steel Chisel",
+	"item-cleaver-meteoricsteel": "Meteoric Steel Cleaver",
+	"item-hammer-meteoricsteel": "Meteoric Steel Hammer",
+	"item-hoe-meteoricsteel": "Meteoric Steel Hoe",
+	"item-knife-generic-meteoricsteel": "Meteoric Steel Knife",
+	"item-pickaxe-meteoricsteel": "Meteoric Steel Pickaxe",
+	"item-prospectingpick-meteoricsteel": "Meteoric Steel Prospecting Pick",
+	"item-saw-meteoricsteel": "Meteoric Steel Saw",
+	"item-scythe-meteoricsteel": "Meteoric Steel Scythe",
+	"item-shears-meteoricsteel": "Meteoric Steel Shears",
+	"item-shovel-meteoricsteel": "Meteoric Steel Shovel",
+	"item-arrowhead-meteoricsteel": "Meteoric Steel Arrowhead",
+	"item-axehead-meteoricsteel": "Meteoric Steel Axehead",
+	"item-bladehead-falx-meteoricsteel": "Meteoric Steel Falx Head",
+	"item-hammerhead-meteoricsteel": "Meteoric Steel Hammerhead",
+	"item-hoehead-meteoricsteel": "Meteoric Steel Hoehead",
+	"item-knifeblade-meteoricsteel": "Meteoric Steel Knife Blade",
+	"item-pickaxehead-meteoricsteel": "Meteoric Steel Pickaxe Head",
+	"item-prospectingpickhead-meteoricsteel": "Meteoric Steel Prospecting Pick Head",
+	"item-sawblade-meteoricsteel": "Meteoric Steel Saw Blade",
+	"item-scythehead-meteoricsteel": "Meteoric Steel Scythe Head",
+	"item-shovelhead-meteoricsteel": "Meteoric Steel Shovel Head",
+	"item-workitem-meteoricsteel": "Work Item (Meteoric Steel)",
+	"material-meteoricsteel": "Meteoric Steel",
+
+	"block-metalblock-new-riveted-meteoricsteel" : "Meteoric Steel Block (Riveted)",
+	"block-metalsheet-meteoricsteel-*" : "Meteoric Steel Sheet"
+
+
+}

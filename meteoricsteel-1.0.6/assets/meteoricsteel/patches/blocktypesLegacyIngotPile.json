@@ -1,0 +1,8 @@
+[
+  {
+    "file": "game:blocktypes/legacy/ingotpile",
+    "op": "addmerge",
+    "path": "/textures/meteoricsteel",
+    "value": { "base": "block/metal/ingot/meteoricsteel" }
+  }
+]

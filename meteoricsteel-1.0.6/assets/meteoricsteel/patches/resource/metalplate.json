@@ -1,0 +1,19 @@
+[
+  {
+    "file": "game:itemtypes/resource/metalplate",
+    "op": "addmerge",
+    "path": "/materialDensityByType/*-meteoricsteel",
+    "value": 7900
+  },
+  {
+    "file": "game:itemtypes/resource/metalplate",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType/metalplate-meteoricsteel",
+    "value": {
+      "meltingPoint": 1450,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-meteoricsteel", "stacksize": 1 }
+    }
+  }
+]

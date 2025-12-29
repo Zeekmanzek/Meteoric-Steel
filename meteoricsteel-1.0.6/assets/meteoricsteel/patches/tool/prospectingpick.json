@@ -1,0 +1,32 @@
+[
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/tooltierbytype/*-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/prospectingpick-meteoricsteel",
+    "value": { "stone": 6, "ore": 6, "metal": 6 }
+  },
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/prospectingpick-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/durabilitybytype/prospectingpick-meteoricsteel",
+    "value": 2250
+  }
+]

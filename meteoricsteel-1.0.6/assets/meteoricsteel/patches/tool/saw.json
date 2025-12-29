@@ -1,0 +1,26 @@
+[
+  {
+    "file": "game:itemtypes/tool/saw",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/saw",
+    "op": "addmerge",
+    "path": "/tooltierbytype/saw-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/saw",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/*-meteoricsteel",
+    "value": { "wood": 6.5, "leaves": 4.5 }
+  },
+  {
+    "file": "game:itemtypes/tool/saw",
+    "op": "addmerge",
+    "path": "/durabilitybytype/saw-meteoricsteel",
+    "value": 3000
+  }
+]

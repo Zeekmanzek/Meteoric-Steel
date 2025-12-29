@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:itemtypes/tool/chisel",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/chisel",
+    "op": "addmerge",
+    "path": "/durabilitybytype/chisel-meteoricsteel",
+    "value": 8400
+  }
+]

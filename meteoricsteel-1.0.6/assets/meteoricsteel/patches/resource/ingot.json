@@ -1,0 +1,39 @@
+[
+  {
+    "file": "game:itemtypes/resource/ingot",
+    "op": "addmerge",
+    "path": "/attributes/reinforcementStrengthByType/*-meteoricsteel",
+    "value": 1500
+  },
+  {
+    "file": "game:itemtypes/resource/ingot",
+    "op": "addmerge",
+    "path": "/attributes/requiresAnvilTierByType/ingot-meteoricsteel",
+    "value": 4
+  },
+  {
+    "file": "game:itemtypes/resource/ingot",
+    "op": "addmerge",
+    "path": "/attributes/carburizablePropsByType/ingot-meteoriciron",
+    "value": {
+      "carburizedOutput": { "type": "item", "code": "ingot-meteoricsteel" }
+    }
+  },
+  {
+    "file": "game:itemtypes/resource/ingot",
+    "op": "addmerge",
+    "path": "/materialDensityByType/*-meteoricsteel",
+    "value": 7900
+  },
+  {
+    "file": "game:itemtypes/resource/ingot",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType/ingot-meteoricsteel",
+    "value": {
+      "meltingPoint": 1450,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-meteoricsteel" }
+    }
+  }
+]

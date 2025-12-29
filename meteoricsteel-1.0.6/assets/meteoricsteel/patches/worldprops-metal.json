@@ -1,0 +1,16 @@
+[
+  {
+    "file": "game:worldproperties/block/metal",
+    "op": "addmerge",
+    "path": "/variants",
+    "value": [ {
+      "code": "meteoricsteel",
+      "meltPoint": 1450,
+      "boilPoint": 2900,
+      "density": 7900,
+      "specificHeatCapacity": 0.51,
+      "elemental": false,
+      "tier": 4
+    } ]
+  }
+]

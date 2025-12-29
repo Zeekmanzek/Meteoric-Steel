@@ -1,0 +1,19 @@
+[
+  {
+    "file": "game:itemtypes/resource/workitem",
+    "op": "addmerge",
+    "path": "/attributesByType/workitem-meteoricsteel",
+    "value": { "requiresAnvilTier": 3 }
+  },
+  {
+    "file": "game:itemtypes/resource/workitem",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType/workitem-meteoricsteel",
+    "value": {
+      "meltingPoint": 1450,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-meteoricsteel" }
+    }
+  }
+]

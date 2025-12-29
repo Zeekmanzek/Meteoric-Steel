@@ -1,0 +1,56 @@
+[
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "remove",
+    "path": "/shapeByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/shapeByType/*-meteoricsteel",
+    "value": { "base": "item/tool/hoe-copper" }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/shapeByType/*",
+    "value": { "base": "item/tool/hoe-stone" }
+  },
+
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/guiTransformByType/@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel|meteoricsteel)",
+    "value": {
+      "rotate": false,
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": -52, "y": -131, "z": -180 },
+      "origin": { "x": 0.93, "y": 0, "z": 0.5 },
+      "scale": 3.76
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "remove",
+    "path": "/guiTransformByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/guiTransformByType/*",
+    "value": {
+      "rotate": false,
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": -63, "y": -128, "z": -131 },
+      "origin": { "x": 1, "y": 0, "z": 0.46 },
+      "scale": 3.76
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:recipes/grid/tool/axe",
+    "op": "addmerge",
+    "path": "/0/ingredients/T/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/tool/blade.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/T/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "file": "game:itemtypes/toolhead/knifeblade",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+
+  {
+    "file": "game:itemtypes/toolhead/knifeblade",
+    "op": "addmerge",
+    "path": "/shapeByType/knifeblade-meteoricsteel",
+    "value": { "base": "item/tool/knife/copper" }
+  },
+
+  { "file": "game:itemtypes/toolhead/knifeblade",
+    "op": "remove",
+    "path": "/shapeByType/*" 
+  },
+  { "file": "game:itemtypes/toolhead/knifeblade",
+    "op": "addmerge",
+    "path": "/shapeByType/*",
+    "value": { "base": "item/tool/knife/stoneblade" }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:blocktypes/metal/anvilpart",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "steel" ]
+  },
+  {
+    "file": "game:blocktypes/metal/anvilpart",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  }
+]
