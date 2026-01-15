@@ -1,0 +1,279 @@
+[
+  {
+    "file": "game:recipes/grid/tool/axe",
+    "op": "addmerge",
+    "path": "/0/ingredients/T/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/tool/blade.json",
+    "op": "addmerge",
+    "path": "/0/ingredients/T/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  // Meteoric Steel Chain Armor Patch
+  {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/0/ingredients/T/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/1/ingredients/T/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/1/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/2/ingredients/T/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  {
+		"file": "game:recipes/grid/armor/chain",
+		"op": "addmerge",
+		"path": "/2/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  // Meteoric Steel Scale Armor Patch
+  {
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/0/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  {
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/1/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/1/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  {
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/2/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armor/scale",
+		"op": "addmerge",
+		"path": "/2/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  // Meteoric Steel Plate Armor Patch
+  {
+		"file": "game:recipes/grid/armor/plate",
+		"op": "addmerge",
+		"path": "/0/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armor/plate",
+		"op": "addmerge",
+		"path": "/0/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  {
+		"file": "game:recipes/grid/armor/plate",
+		"op": "addmerge",
+		"path": "/1/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armor/plate",
+		"op": "addmerge",
+		"path": "/1/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  {
+		"file": "game:recipes/grid/armor/plate",
+		"op": "addmerge",
+		"path": "/2/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "game:recipes/grid/armor/plate",
+		"op": "addmerge",
+		"path": "/2/ingredients/C/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+  // Meteoric Steel Armor Repair Patch
+  // Chain
+  {
+    "file": "game:recipes/grid/armorrepair/chain",
+    "op": "addmerge",
+    "path": "/0/ingredients/T/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/chain",
+    "op": "addmerge",
+    "path": "/0/ingredients/C/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/chain",
+    "op": "addmerge",
+    "path": "/1/ingredients/T/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/chain",
+    "op": "addmerge",
+    "path": "/1/ingredients/L/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/chain",
+    "op": "addmerge",
+    "path": "/1/ingredients/C/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/chain",
+    "op": "addmerge",
+    "path": "/2/ingredients/T/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/chain",
+    "op": "addmerge",
+    "path": "/2/ingredients/L/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/chain",
+    "op": "addmerge",
+    "path": "/2/ingredients/C/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  // Scale
+  {
+    "file": "game:recipes/grid/armorrepair/scale",
+    "op": "addmerge",
+    "path": "/0/ingredients/B/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/scale",
+    "op": "addmerge",
+    "path": "/0/ingredients/S/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/scale",
+    "op": "addmerge",
+    "path": "/0/ingredients/C/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/scale",
+    "op": "addmerge",
+    "path": "/1/ingredients/B/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/scale",
+    "op": "addmerge",
+    "path": "/1/ingredients/S/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/scale",
+    "op": "addmerge",
+    "path": "/1/ingredients/C/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/scale",
+    "op": "addmerge",
+    "path": "/2/ingredients/B/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/scale",
+    "op": "addmerge",
+    "path": "/2/ingredients/S/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/scale",
+    "op": "addmerge",
+    "path": "/2/ingredients/C/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  // Plate
+  {
+    "file": "game:recipes/grid/armorrepair/plate",
+    "op": "addmerge",
+    "path": "/0/ingredients/B/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/plate",
+    "op": "addmerge",
+    "path": "/0/ingredients/P/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/plate",
+    "op": "addmerge",
+    "path": "/0/ingredients/C/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/plate",
+    "op": "addmerge",
+    "path": "/1/ingredients/B/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/plate",
+    "op": "addmerge",
+    "path": "/1/ingredients/P/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/plate",
+    "op": "addmerge",
+    "path": "/1/ingredients/C/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/plate",
+    "op": "addmerge",
+    "path": "/2/ingredients/B/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/plate",
+    "op": "addmerge",
+    "path": "/2/ingredients/P/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/grid/armorrepair/plate",
+    "op": "addmerge",
+    "path": "/2/ingredients/C/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  }
+]

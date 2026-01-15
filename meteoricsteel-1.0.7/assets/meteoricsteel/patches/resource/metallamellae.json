@@ -1,0 +1,19 @@
+[
+  {
+    "file": "game:itemtypes/resource/metallamellae",
+    "op": "addmerge",
+    "path": "/materialDensityByType/*-meteoricsteel",
+    "value": 7900
+  },
+  {
+    "file": "game:itemtypes/metallamellae",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType/metallamellae-meteoricsteel",
+    "value": {
+      "meltingPoint": 1490,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-meteoricsteel", "stacksize": 2 }
+    }
+  }
+]

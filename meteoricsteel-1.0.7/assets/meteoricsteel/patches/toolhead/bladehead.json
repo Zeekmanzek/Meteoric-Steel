@@ -1,0 +1,8 @@
+[
+  {
+    "file": "game:itemtypes/toolhead/bladehead",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  }
+]

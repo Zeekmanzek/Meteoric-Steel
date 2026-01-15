@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:itemtypes/toolhead/arrowhead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/toolhead/arrowhead",
+    "op": "addmerge",
+    "path": "/shapeByType/*-meteoricsteel",
+    "value": { "base": "item/tool/arrowhead-copper" }
+  }
+]
