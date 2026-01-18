@@ -1,0 +1,26 @@
+[
+  {
+    "file": "game:blocktypes/metal/anvil",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:blocktypes/metal/anvil",
+    "op": "move",
+    "frompath": "/shapeByType/*",
+    "path": "/move-temp"
+  },
+  {
+    "file": "game:blocktypes/metal/anvil",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": { "*-meteoricsteel": {"base": "block/metal/anvil/iron" } }
+  },
+  {
+    "file": "game:blocktypes/metal/anvil",
+    "op": "move",
+    "frompath": "/move-temp",
+    "path": "/shapeByType/*"
+  }
+]

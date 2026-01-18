@@ -1,0 +1,20 @@
+[
+  {
+    "file": "game:itemtypes/tool/cleaver",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/cleaver",
+    "op": "addmerge",
+    "path": "/durabilitybytype/cleaver-meteoricsteel",
+    "value": 2375
+  },
+  {
+    "file": "game:itemtypes/tool/cleaver",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/cleaver-meteoricsteel",
+    "value": 2.85
+  }
+]

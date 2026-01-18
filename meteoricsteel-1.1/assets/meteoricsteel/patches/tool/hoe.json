@@ -1,0 +1,62 @@
+[
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/attributes/groundStorageTransformByType/@hoe-meteoricsteel",
+    "value": { "translation": { "x": 0, "y": 0.04, "z": -0.25 }, "rotation": { "x": 23, "y": 87, "z": -90 }, "scale": 0.88 }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/attributes/toolrackTransformByType/@hoe-meteoricsteel",
+    "value": { "rotation": { "y": 1, "z": -1 }, "translation": { "x": -0.25, "y": 0.6 }, "scale": 1.25 }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/shapeByType/*-meteoricsteel",
+    "value": { "base": "item/tool/hoe-copper" }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/texturesByType/@hoe-meteoricsteel",
+    "value": { "material": { "base": "block/metal/ingot/{material}" } }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/hoe-meteoricsteel",
+    "value": { "soil": 5.5 }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-meteoricsteel",
+    "value": 1500
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/guiTransformByType/@hoe-meteoricsteel",
+    "value": { "rotate": false, "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": -56, "y": -127, "z": -180 }, "origin": { "x": 0.35, "y": 0, "z": 0.55 }, "scale": 1.43 }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/@hoe-meteoricsteel",
+    "value": { "translation": { "x": -1, "y": -0.5, "z": -0.08 }, "rotation": { "x": 90, "y": 0, "z": -5 }, "scale": 1 }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "game:itemtypes/tool/arrow",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/arrow",
+    "op": "addmerge",
+    "path": "/attributes/damageByType/*-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/arrow",
+    "op": "addmerge",
+    "path": "/attributes/breakChanceOnImpactByType/*-meteoricsteel",
+    "value": 0.07
+  }
+]
