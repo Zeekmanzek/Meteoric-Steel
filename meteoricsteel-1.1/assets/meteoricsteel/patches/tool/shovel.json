@@ -1,0 +1,56 @@
+[
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/shapeByType/shovel-meteoricsteel",
+    "value": { "base": "item/tool/shovel-copper" }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-meteoricsteel",
+    "value": { "soil": 8, "sand": 8, "gravel": 4.75, "snow": 4.75 }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-meteoricsteel",
+    "value": 3500
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/guiTransformByType/@shovel-meteoricsteel",
+    "value": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": -113, "y": -147, "z": 139 }, "origin": { "x": 0.2, "y": 0.7, "z": 0.8 } }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "move",
+    "frompath": "/attributes/groundStorageTransformByType/*",
+    "path": "/move-temp"
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/attributes/groundStorageTransformByType/@shovel-meteoricsteel",
+    "value": { "translation": { "x": 0, "y": 0.59, "z": -0.15 }, "rotation": { "x": 13, "y": 88, "z": -87 }, "scale": 0.88 }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "move",
+    "frompath": "/move-temp",
+    "path": "/attributes/groundStorageTransformByType/*"
+  }
+]

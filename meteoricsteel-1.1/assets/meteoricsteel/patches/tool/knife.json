@@ -1,0 +1,36 @@
+[
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/attributes/groundStorageTransformByType/@knife-generic-meteoricsteel",
+    "value": {
+      "translation": { "x": 0, "y": 0.01, "z": -0.074 },
+      "rotation": { "x": 26, "y": 88, "z": -87 },
+      "scale": 1
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/durabilitybytype/knife-generic-meteoricsteel",
+    "value": 3000
+  },
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/knife-generic-meteoricsteel",
+    "value": { "plant": 2.5 }
+  },
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/knife-generic-meteoricsteel",
+    "value": 4.5
+  }
+]

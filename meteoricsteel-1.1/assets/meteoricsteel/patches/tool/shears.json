@@ -1,0 +1,20 @@
+[
+  {
+    "file": "game:itemtypes/tool/shears",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/shears",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shears-meteoricsteel",
+    "value": 3.75
+  },
+  {
+    "file": "game:itemtypes/tool/shears",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shears-meteoricsteel",
+    "value": 11250
+  }
+]

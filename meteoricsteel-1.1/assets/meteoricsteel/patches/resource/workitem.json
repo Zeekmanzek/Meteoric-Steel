@@ -1,0 +1,30 @@
+[
+  {
+    "file": "game:itemtypes/resource/workitem",
+    "op": "addmerge",
+    "path": "/attributesByType/workitem-meteoricsteel",
+    "value": { "requiresAnvilTier": 4 }
+  },
+  {
+    "file": "game:itemtypes/resource/workitem",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType/workitem-meteoricsteel",
+    "value": {
+      "meltingPoint": 1490,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-meteoricsteel" }
+    }
+  },
+  {
+    "file": "game:itemtypes/resource/workitem",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType/workitem-meteoricpigiron",
+    "value": {
+      "meltingPoint": 1450,
+      "meltingDuration": 30,
+      "smeltedRatio": 1,
+      "smeltedStack": { "type": "item", "code": "ingot-meteoricpigiron" }
+    }
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "file": "game:worldproperties/block/toolmetal",
+    "op": "addmerge",
+    "path": "/variants",
+    "value": [ { "code": "meteoricsteel" } ]
+  }
+]

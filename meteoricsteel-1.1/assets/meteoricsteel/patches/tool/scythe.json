@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:itemtypes/tool/scythe",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/scythe",
+    "op": "addmerge",
+    "path": "/durabilitybytype/scythe-meteoricsteel",
+    "value": 4500
+  }
+]

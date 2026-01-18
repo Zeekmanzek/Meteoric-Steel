@@ -1,0 +1,38 @@
+[
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/shapeByType/axe-felling-meteoricsteel",
+    "value": { "base": "item/tool/axe/iron" }
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/tooltierbytype/*-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/axe-felling-meteoricsteel",
+    "value": { "wood": 13.5, "plant": 6.5, "leaves": 4.4 }
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-felling-meteoricsteel",
+    "value": 2400
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/axe-felling-meteoricsteel",
+    "value": 4.5
+  }
+]

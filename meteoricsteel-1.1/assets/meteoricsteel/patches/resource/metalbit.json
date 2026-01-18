@@ -1,0 +1,24 @@
+[
+  {
+    "file": "game:itemtypes/resource/metalbit",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType/*-meteoricsteel",
+    "value": {
+      "meltingPoint": 1490,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": { "type": "item", "code": "ingot-meteoricsteel" }
+    }
+  },
+  {
+    "file": "game:itemtypes/resource/metalbit",
+    "op": "addmerge",
+    "path": "/combustiblePropsByType/*-meteoricpigiron",
+    "value": {
+      "meltingPoint": 1590,
+      "meltingDuration": 30,
+      "smeltedRatio": 20,
+      "smeltedStack": { "type": "item", "code": "ingot-meteoricpigiron" }
+    }
+  }
+]

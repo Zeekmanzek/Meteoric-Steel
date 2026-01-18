@@ -1,0 +1,32 @@
+[
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/tooltierbytype/*-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/pickaxe-meteoricsteel",
+    "value": { "ceramic": 3.75, "stone": 10, "ore": 10, "metal": 10, "ice": 4.5 }
+  },
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/pickaxe-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/durabilitybytype/pickaxe-meteoricsteel",
+    "value": 3250
+  }
+]

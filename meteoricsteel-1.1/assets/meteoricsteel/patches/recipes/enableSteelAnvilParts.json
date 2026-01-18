@@ -1,0 +1,14 @@
+[
+  {
+    "file": "assets/survival/recipes/smithing/anvilbase",
+    "op": "addmerge",
+    "path": "/ingredient/allowedVariants",
+    "value": [ "steel" ]
+  },
+  {
+    "file": "assets/survival/recipes/smithing/anviltop",
+    "op": "addmerge",
+    "path": "/ingredient/allowedVariants",
+    "value": [ "steel" ]
+  }
+]

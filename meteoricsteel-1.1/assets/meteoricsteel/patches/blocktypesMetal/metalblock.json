@@ -1,0 +1,20 @@
+[
+  {
+    "file": "game:blocktypes/metal/metalblock",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-new-plain-meteoricsteel"
+  },
+  {
+    "file": "game:blocktypes/metal/metalblock",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-corroded-*-meteoricsteel"
+  },
+  {
+    "file": "game:blocktypes/metal/metalblock",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-*-*-meteoricpigiron"
+  }
+]

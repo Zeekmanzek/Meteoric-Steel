@@ -1,0 +1,26 @@
+[
+  {
+    "file": "game:itemtypes/tool/hammer",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/hammer",
+    "op": "addmerge",
+    "path": "/tooltierbytype/*-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/hammer",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hammer-meteoricsteel",
+    "value": 5250
+  },
+  {
+    "file": "game:itemtypes/tool/hammer",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hammer-meteoricsteel",
+    "value": 2.7
+  }
+]
