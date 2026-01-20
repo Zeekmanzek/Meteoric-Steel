@@ -52,19 +52,20 @@
     {
         "file": "game:itemtypes/wearable/seraph/armor.json",
         "op": "addmerge",
-        "path": "/attributes/durabilityByType/armor-*-chain-meteoricsteel",
+        "path": "/durabilityByType/armor-*-chain-meteoricsteel",
         "value": 2250
     },
     {
         "file": "game:itemtypes/wearable/seraph/armor.json",
         "op": "addmerge",
-        "path": "/attributes/durabilityByType/armor-*-scale-meteoricsteel",
+        "path": "/durabilityByType/armor-*-scale-meteoricsteel",
         "value": 4250
     },
     {
         "file": "game:itemtypes/wearable/seraph/armor.json",
         "op": "addmerge",
-        "path": "/attributes/durabilityByType/armor-*-plate-meteoricsteel",
+        "path": "/durabilityByType/armor-*-plate-meteoricsteel",
         "value": 7000
     }
+
 ]
