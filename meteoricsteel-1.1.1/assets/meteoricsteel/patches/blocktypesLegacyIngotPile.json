@@ -1,0 +1,14 @@
+[
+  {
+    "file": "game:blocktypes/legacy/ingotpile",
+    "op": "addmerge",
+    "path": "/textures/meteoricsteel",
+    "value": { "base": "block/metal/ingot/meteoricsteel" }
+  },
+  {
+    "file": "game:blocktypes/legacy/ingotpile",
+    "op": "addmerge",
+    "path": "/textures/meteoricpigiron",
+    "value": { "base": "block/metal/ingot/meteoricpigiron" }
+  }
+]

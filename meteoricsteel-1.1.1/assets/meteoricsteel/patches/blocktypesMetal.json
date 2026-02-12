@@ -1,0 +1,72 @@
+[
+  // Anvil
+  {
+    "file": "game:blocktypes/metal/anvil",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:blocktypes/metal/anvil",
+    "op": "move",
+    "frompath": "/shapeByType/*",
+    "path": "/move-temp"
+  },
+  {
+    "file": "game:blocktypes/metal/anvil",
+    "op": "addmerge",
+    "path": "/shapeByType",
+    "value": { "*-meteoricsteel": {"base": "block/metal/anvil/iron" } }
+  },
+  {
+    "file": "game:blocktypes/metal/anvil",
+    "op": "move",
+    "frompath": "/move-temp",
+    "path": "/shapeByType/*"
+  },
+  // Anvil Part
+  {
+    "file": "game:blocktypes/metal/anvilpart",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "steel" ]
+  },
+  {
+    "file": "game:blocktypes/metal/anvilpart",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  },
+  // Metal Block
+  {
+    "file": "game:blocktypes/metal/metalblock",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-new-plain-meteoricsteel"
+  },
+  {
+    "file": "game:blocktypes/metal/metalblock",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-corroded-*-meteoricsteel"
+  },
+  {
+    "file": "game:blocktypes/metal/metalblock",
+    "op": "addmerge",
+    "path": "/skipVariants/-",
+    "value": "metalblock-*-*-meteoricpigiron"
+  },
+  // Plate Pile
+  {
+    "file": "game:blocktypes/metal/platepile",
+    "op": "addmerge",
+    "path": "/textures/meteoricsteel",
+    "value": { "base": "block/metal/ingot/meteoricsteel" }
+  }, 
+  {
+    "file": "game:blocktypes/metal/platepile",
+    "op": "addmerge",
+    "path": "/textures/meteoricpigiron",
+    "value": { "base": "block/metal/ingot/meteoricpigiron" }
+  }
+]

@@ -1,0 +1,158 @@
+[
+	// Chain
+	{
+		"file": "armory:itemtypes/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/behaviors/0/properties/ResistsByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"PiercingAttack": 3,
+				"SlashingAttack": 5,
+				"BluntAttack": 0
+			}
+		}
+	},
+	{
+		"file": "armory:itemtypes/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "*-meteoricsteel-*": 4500 }
+	},
+	// Chain Coif
+	{
+		"file": "armory:itemtypes/armor/chain-coif",
+		"dependsOn": [ { "modid": "armory" }],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/armor/chain-coif",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/behaviors/0/properties/ResistsByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"PiercingAttack": 3,
+				"SlashingAttack": 5,
+				"BluntAttack": 0
+			}
+		}
+	},
+	{
+		"file": "armory:itemtypes/armor/chain-coif",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "*-meteoricsteel-*": 4500 }
+	},
+	// Plate
+	{
+		"file": "armory:itemtypes/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/behaviors/0/properties/ResistsByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"PiercingAttack": 9,
+				"SlashingAttack": 7,
+				"BluntAttack": 8
+			}
+		}
+	},
+	{
+		"file": "armory:itemtypes/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "*-meteoricsteel-*": 14000 }
+	},
+	// Plate Helmets
+	{
+		"file": "armory:itemtypes/armor/plate-helmets",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/armor/plate-helmets",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shapeByType/*"
+	},
+	{
+		"file": "armory:itemtypes/armor/plate-helmets",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-meteoricsteel-*": { "base": "armor/{construction}/{subtype}-helmet/{bodypart}-iron" },
+			"*": { "base": "armor/{construction}/{subtype}-helmet/{bodypart}-{material}" }
+		}
+	},
+	{
+		"file": "armory:itemtypes/armor/plate-helmets",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/behaviors/0/properties/ResistsByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"PiercingAttack": 9,
+				"SlashingAttack": 7,
+				"BluntAttack": 8
+			}
+		}
+	},
+	{
+		"file": "armory:itemtypes/armor/plate-helmets",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "*-meteoricsteel-*": 12500 }
+	},
+	// Scale
+	{
+		"file": "armory:itemtypes/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/behaviors/0/properties/ResistsByType",
+		"value": {
+			"*-meteoricsteel-*": {
+				"PiercingAttack": 6,
+				"SlashingAttack": 6,
+				"BluntAttack": 2
+			}
+		}
+	},
+	{
+		"file": "armory:itemtypes/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": { "*-meteoricsteel-*": 14000 }
+	}
+]

@@ -1,0 +1,23 @@
+{
+	"code": "metal",
+	"variants": [		
+		{             
+			"code": "meteoricsteel",
+			"meltPoint": 1450.0,
+			"boilPoint": 2900.0, 
+			"density": 7900.0,
+			"specificHeatCapacity": 0.51,
+			"elemental": false,
+			"tier": 4
+		},
+		{
+			"code": "meteoricpigiron",
+			"meltPoint": 1550.0,
+			"boilPoint": 3100.0, 
+			"density": 8000.0,
+			"specificHeatCapacity": 0.51,
+			"elemental": false,
+			"tier": 4
+		}
+	]
+}

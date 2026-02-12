@@ -1,0 +1,1534 @@
+[
+	// Axe - Long
+	{
+		"file": "armory:itemtypes/weapons/axe-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/axe-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shapeByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/axe-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { 
+			"*-meteoricsteel": { "base": "armory:axes/long-steel" },
+			"*": {"base": "axes/long-{material}"} 
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/axe-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/Attack/DamageTypesByType",
+		"value": { "*-meteoricsteel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 9.5}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.2, 0.5, 0.5, 0.8, 0.5, 0.5]}] }
+	},
+	{
+		"file": "armory:itemtypes/weapons/axe-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750}
+	},
+	// Club
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "blunt/polehammer-steel" } }
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/attributes/groundStorageTransformByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/groundStorageTransformByType",
+		"value": {
+			"*-meteoricsteel": {"translation": {"x": 0.5, "y": 1.99, "z": 0.65}, "rotation": {"x": 17, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.7},
+			"*": {"translation": {"x": 0.5, "y": 2.09, "z": 0.6}, "rotation": {"x": 17, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypesByType",
+		"value": {
+			"*-meteoricsteel": [
+				{
+					"Damage": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 5.5, "ArmorPiercingTier": 1},
+					"Knockback": 0,
+					"DurabilityDamage": 1,
+					"Collider": [1, 0, 0.5, 2.8, -0.3, 0.5]
+				}
+			]
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/Attack/DamageTypesByType",
+		"value": {
+			"*-meteoricsteel": [
+				{
+					"Damage": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 6.5, "ArmorPiercingTier": 3},
+					"Knockback": 1,
+					"DurabilityDamage": 1,
+					"Collider": [1, 0, 0.5, 2.8, -0.3, 0.5]
+				}
+			]
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/attributes/TwoHandedStance/AttackAnimationByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/AttackAnimationByType",
+		"value": {
+			"*-meteoricsteel": {"Main": ["armory:club-strike-2h-3", "armory:club-strike-2h-4"]},
+			"*": {"Main": ["armory:club-strike-2h-1", "armory:club-strike-2h-2"]}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750 }
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/guiTransformByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/club",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": {
+			"*-meteoricsteel": {
+				"translation": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 40, "y": 0, "z": -52},
+				"origin": {"x": 2.8, "y": -0.25, "z": 0},
+				"scaleXyz": {"x": -1.75, "y": 1.75, "z": 1.75}
+			},
+			"*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 2.4, "y": -0.3, "z": 0}, "scaleXyz": {"x": -1.6, "y": 1.6, "z": 1.6}}
+		}
+	},
+	// Halberd
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-meteoricsteel": { "base": "armory:halberds/halberd-steel-{type}" }
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 8.5} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/1/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7.5} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 8.5} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/1/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7.5} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 8.5} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/1/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7.5} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 8} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750 }
+	},
+	// Javelin
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shapeByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-meteoricsteel": { "base": "armory:spears/javelin-steel-plain" },
+			"*": { "base": "armory:spears/javelin-{material}-plain" }
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"*-meteoricsteel": {
+				"head": { "base": "game:block/metal/plate/{material}" }
+			}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType",
+		"value": {
+			"*-meteoricsteel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 6},
+            "*": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 2.5}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/attributes/ThrowAttack/DamageTierByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/ThrowAttack/DamageTierByType",
+		"value": {
+			"*-meteoricsteel": 6,
+            "*": 1
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/durabilitybytype/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/javelin",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750, "*": 80 }
+	},
+	// Mace
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/behaviorsByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/behaviorsByType",
+		"value": {
+			"*-meteoricsteel": [
+				{
+					"name": "GroundStorable",
+					"properties": {
+						"layout": "WallHalves",
+						"wallOffY": 2,
+						"sprintKey": true,
+						"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+						"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+					}
+				},
+				{
+					"name": "CombatOverhaul:TexturesFromAttributes",
+					"properties": {
+						"Textures": [
+							{
+								"Code": "handle",
+								"Attribute": "handleTexture",
+								"Default": "game:block/wood/debarked/oak",
+								"HandbookValues": [
+									"game:block/wood/debarked/aged",
+									"game:block/wood/debarked/birch",
+									"game:block/wood/debarked/oak",
+									"game:block/wood/debarked/maple",
+									"game:block/wood/debarked/pine",
+									"game:block/wood/debarked/acacia",
+									"game:block/wood/debarked/kapok",
+									"game:block/wood/debarked/baldcypress",
+									"game:block/wood/debarked/larch",
+									"game:block/wood/debarked/redwood",
+									"game:block/wood/debarked/ebony",
+									"game:block/wood/debarked/walnut",
+									"game:block/wood/debarked/purpleheart"
+								]
+							}
+						],
+						"CreativeTabs": ["general", "armory-colors"]
+					}
+				}
+			],
+			"*": [
+				{
+					"name": "GroundStorable",
+					"properties": {
+						"layout": "WallHalves",
+						"wallOffY": 2,
+						"sprintKey": true,
+						"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+						"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+					}
+				}
+			]
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shapeByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": {"base": "blunt/warhammer-steel"}, "*": {"base": "blunt/mace-stone"} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/attributes/groundStorageTransformByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/groundStorageTransformByType",
+		"value": {
+			"*-meteoricsteel": {"translation": {"x": 0.5, "y": 1.4, "z": 0.6}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8},
+			"*": {"translation": {"x": 0.5, "y": 1.15, "z": 0.7}, "rotation": {"x": 15, "y": 0, "z": -90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/attributes/toolrackTransformByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/toolrackTransformByType",
+		"value": {
+			"*-meteoricsteel": {"translation": {"x": -1.1, "y": 1.16, "z": 0.5}, "rotation": {"x": 90, "y": -1, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2},
+			"*": {"translation": {"x": -0.8, "y": 0.56, "z": -0.1}, "rotation": {"x": 0, "y": 0, "z": -2}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 1.2}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypesByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypesByType",
+		"value": {
+			"*-meteoricsteel": [
+            {
+              "Damage": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 6, "ArmorPiercingTier": 3},
+              "Knockback": 0,
+              "DurabilityDamage": 1,
+              "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]
+            }
+          ],
+          "*": [{"Damage": {"DamageType": "BluntAttack", "Tier": 1, "Damage": 3}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.7, -0.1, 0.5, 1.7, -0.2, 0.5]}]
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/durabilitybytype/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750, "*": 150 }
+	},
+	{
+		"file": "armory:itemtypes/weapons/mace",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": {
+			"*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}},
+			"*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 1.7, "y": -0.3, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}}
+		}
+	},
+	// Pike
+	{
+		"file": "armory:itemtypes/weapons/pike",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/pike",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-meteoricsteel": { "base": "armory:spears/pike-steel-{type}" },
+			"*": { "base": "spears/pike-{material}-{type}"}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/pike",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shape"
+	},
+	{
+		"file": "armory:itemtypes/weapons/pike",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/Attack/DamageTypesByType",
+		"value": { "*-meteoricsteel": [{"Damage": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 7}, "Knockback": 2, "DurabilityDamage": 1, "Collider": [0, 0, 0.5, 1.2, 0, 0.5]}] }
+	},
+	{
+		"file": "armory:itemtypes/weapons/pike",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750}
+	},
+	// Poleaxe
+	{
+		"file": "armory:itemtypes/weapons/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shape",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-meteoricsteel": { "base": "armory:axes/poleaxe-steel" },
+			"*": {"base": "armory:axes/poleaxe-{material}"}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 8, "ArmorPiercingTier": 2} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Left/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 8} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Right/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 8} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Bottom/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 8, "ArmorPiercingTier": 2} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750 }
+	},
+	// Quarterstaff
+	{
+		"file": "armory:itemtypes/weapons/quarterstaff",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/quarterstaff",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/Top/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 6} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/quarterstaff",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/BottomRight/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 6} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/quarterstaff",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/DirectionalAttacks/BottomLeft/DamageTypes/0/DamageByType",
+		"value": { "*-meteoricsteel": {"DamageType": "BluntAttack", "Tier": 6, "Damage": 6} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/quarterstaff",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750 }
+	},
+	// Sabre
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/behaviorsByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/behaviorsByType",
+		"value": {
+			"*-meteoricsteel": [
+				{
+					"name": "GroundStorable",
+					"properties": {
+					  "layout": "WallHalves",
+					  "wallOffY": 2,
+					  "sprintKey": true,
+					  "selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+					  "collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+					}
+				},
+				{
+					"name": "CombatOverhaul:TexturesFromAttributes",
+					"properties": {
+						"Textures": [
+							{
+								"Code": "handle",
+								"Attribute": "handleTexture",
+								"Default": "game:block/leather/plain",
+								"HandbookValues": [
+									"game:block/leather/plain",
+									"game:block/leather/black",
+									"game:block/leather/blue",
+									"game:block/leather/chromium",
+									"game:block/leather/gray",
+									"game:block/leather/green",
+									"game:block/leather/orange",
+									"game:block/leather/pink",
+									"game:block/leather/purple",
+									"game:block/leather/red",
+									"game:block/leather/white",
+									"game:block/leather/yellow"
+								]
+							}
+						],
+						"CreativeTabs": ["general", "armory-colors"]
+					}
+				}
+			],
+			"*": [
+				{
+					"name": "GroundStorable",
+					"properties": {
+						"layout": "WallHalves",
+						"wallOffY": 2,
+						"sprintKey": true,
+						"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+						"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+					}
+				},
+				{
+					"name": "CombatOverhaul:TexturesFromAttributes",
+					"properties": {
+						"Textures": [
+							{
+								"Code": "handle",
+								"Attribute": "handleTexture",
+								"Default": "game:block/wood/debarked/oak",
+								"HandbookValues": [
+									"game:block/wood/debarked/aged",
+									"game:block/wood/debarked/birch",
+									"game:block/wood/debarked/oak",
+									"game:block/wood/debarked/maple",
+									"game:block/wood/debarked/pine",
+									"game:block/wood/debarked/acacia",
+									"game:block/wood/debarked/kapok",
+									"game:block/wood/debarked/baldcypress",
+									"game:block/wood/debarked/larch",
+									"game:block/wood/debarked/redwood",
+									"game:block/wood/debarked/ebony",
+									"game:block/wood/debarked/walnut",
+									"game:block/wood/debarked/purpleheart"
+								]
+							}
+						],
+						"CreativeTabs": ["general", "armory-colors"]
+					}
+				}
+			]
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shapeByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "swords/sabre-steel" }, "*": {"base": "swords/sabre-{material}"}}
+	},
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/groundStorageTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0.5, "y": 0.1, "z": 0.35}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/toolrackTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypesByType",
+		"value": { "*-meteoricsteel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, -0.3, 0.5, 3.1, 0.2, 0.5]}] }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750 }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.8, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}} }
+	},
+	// Shield - Heavy
+	{
+		"file": "armory:itemtypes/weapons/shield-heavy",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-heavy",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "armory:shields/kite-flat" } }
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-heavy",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 5160 }
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-heavy",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OffHandStanceByType",
+		"value": {
+			"*-meteoricsteel": {
+                "CanAttack": false,
+                "CanParry": false,
+                "CanBlock": true,
+                "CanSprint": true,
+                "SpeedPenalty": -0.05,
+                "BlockSpeedPenalty": -0.4,
+                "Block": {
+                "Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+                "Directions": [60, 60, 60, 60],
+                "Sound": "game:sounds/held/shieldblock-wood-light",
+                "BlockTier": {"BluntAttack": 8, "SlashingAttack": 8, "PiercingAttack": 8}
+                },
+                "BlockCooldownMs": 300,
+                "BlockAnimation": "combatoverhaul:shield-heavy-block-kite",
+                "ReadyAnimation": "combatoverhaul:shield-heavy-ready",
+                "IdleAnimation": "combatoverhaul:shield-heavy-ready",
+                "BlockTpAnimation": "block"
+            }
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-heavy",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 108, "y": 137, "z": 33}, "origin": {"x": 0.35, "y": -0.1, "z": 0.7}, "scale": 1.1} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-heavy",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/tpHandTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": -0.5, "y": 0.6, "z": -0.12}, "rotation": {"x": 0, "y": -90, "z": -100}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-heavy",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/tpOffHandTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": -0.52, "y": -0.39, "z": -0.06}, "rotation": {"x": 0, "y": -90, "z": 102}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.9} }
+	},
+	// Shield - Light
+	{
+		"file": "armory:itemtypes/weapons/shield-light",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-light",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "armory:shields/buckler" } }
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-light",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 5160 }
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-light",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OffHandStanceByType",
+		"value": {
+			"*-meteoricsteel": {
+				"CanAttack": false,
+				"CanParry": true,
+				"CanBlock": true,
+				"CanSprint": true,
+				"CanBash": true,
+				"SpeedPenalty": 0,
+				"BlockSpeedPenalty": 0,
+				"Parry": {
+					"Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand", "LeftLeg", "RightLeg", "LeftFoot", "RightFoot"],
+					"Directions": [90, 90, 90, 90],
+					"Sound": "game:sounds/held/shieldblock-metal-heavy",
+					"BlockTier": {"BluntAttack": 9, "SlashingAttack": 9, "PiercingAttack": 9}
+				},
+				"Block": {
+					"Zones": ["Head", "Face", "Neck", "Torso", "LeftArm", "RightArm", "LeftHand", "RightHand"],
+					"Directions": [45, 45, 45, 45],
+					"Sound": "game:sounds/held/shieldblock-metal-light",
+					"BlockTier": {"BluntAttack": 7, "SlashingAttack": 7, "PiercingAttack": 7}
+				},
+				"BlockBash": {
+					"StopOnTerrainHit": false,
+					"StopOnEntityHit": true,
+					"CollideWithTerrain": true,
+					"MaxReach": 9,
+					"DamageTypes": [
+						{
+							"DamageByType": {"*": {"DamageType": "BluntAttack", "Tier": 0, "Damage": 1}},
+							"Knockback": 2,
+							"DurabilityDamage": 1,
+							"Collider": [-0.3, -0.3, 0.2, 0.39999998, -0.3, 0.2]
+						}
+					]
+				},
+				"BlockCooldownMs": 300,
+				"BlockAnimation": "armory:shield-light-parry",
+				"ReadyAnimation": "armory:shield-light-ready",
+				"IdleAnimation": "armory:shield-light-ready",
+				"BlockBashAnimation": {"Main": ["combatoverhaul:shield-light-bash"]},
+				"BlockTpAnimation": "block"
+			}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-light",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 121, "y": 0, "z": -30}, "origin": {"x": 0.46, "y": 0, "z": 0.5}, "scale": 1.6} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-light",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/tpHandTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0.5, "y": 0.5, "z": -0.2}, "rotation": {"x": -110, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/shield-light",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/tpOffHandTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0.5, "y": -0.45, "z": -0.15}, "rotation": {"x": 110, "y": 0, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.8} }
+	},
+	// Spear
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "remove",
+		"path": "/behaviors/1/properties/stats/DamageStatsByType/*"
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/behaviors/1/properties/stats/DamageStatsByType",
+		"value": {
+			"*-meteoricsteel": {"DamageType": "PiercingAttack", "Damage": 7},
+			"*": {"DamageType": "PiercingAttack", "Damage": 2}
+		}
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "remove",
+		"path": "/shapeByType/*"
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-meteoricsteel": { "base": "combatoverhaul:weapons/spears/spear-steel" },
+			"*": { "base": "combatoverhaul:weapons/spears/spear-{material}" }
+		}
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/texturesByType",
+		"value": {
+			"spear-generic-meteoricsteel": {
+				"head": { "base": "game:block/metal/plate/meteoricsteel" }
+			}
+		}
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/texturesByType/spear-generic-meteoricsteel",
+		"value": { "material": { "base": "game:block/metal/plate/meteoricsteel" } }
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "remove",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType/*"
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypes/0/DamageByType",
+		"value": {
+			"*-meteoricsteel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 5},
+			"*": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 2}
+		}
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "remove",
+		"path": "/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType/*"
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/Attack/DamageTypes/0/DamageByType",
+		"value": {
+			"*-meteoricsteel": {"DamageType": "PiercingAttack", "Tier": 6, "Damage": 7},
+			"*": {"DamageType": "PiercingAttack", "Tier": 1, "Damage": 4}
+		}
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "remove",
+		"path": "/attributes/ThrowAttack/DamageStrengthByType/*"
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/attributes/ThrowAttack/DamageStrengthByType",
+		"value": {
+			"*-meteoricsteel": 7,
+			"*": 1
+		}
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "remove",
+		"path": "/durabilitybytype/*"
+	},
+	{
+		"file": "game:itemtypes/combatoverhaul/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": {
+			"*-meteoricsteel": 1500,
+			"*": 100
+		}
+	},
+	{
+		"file": "combatoverhaul:entities/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "combatoverhaul:entities/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/client/shapeByType",
+		"value": { "spear-generic-meteoricsteel": { "base": "combatoverhaul:weapons/spears/spear-steel" } }
+	},
+	{
+		"file": "combatoverhaul:entities/spear",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/client/texturesByType",
+		"value": {
+			"spear-generic-meteoricsteel": {
+				"head": { "base": "game:block/metal/plate/meteoricsteel" }
+			}
+		}
+	},
+	{
+		"file": "game:itemtypes/toolhead/spearhead",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/0/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "game:itemtypes/toolhead/spearhead",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "game:item/tool/spear/spearhead-metal" } }
+	},
+	{"side": "Server", "file": "game:itemtypes/toolhead/spearhead", "op": "move", "frompath": "/guiTransformByType/*", "path": "/move-temp"},
+	{
+		"side": "Server",
+		"file": "game:itemtypes/toolhead/spearhead",
+		"op": "add",
+		"path": "/guiTransformByType/*-meteoricsteel",
+		"value": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 43, "y": 28, "z": -59}, "origin": {"x": 0.45, "y": 0.02, "z": 0.5}, "scale": 3.51}
+	},
+	{"side": "Server", "file": "game:itemtypes/toolhead/spearhead", "op": "move", "frompath": "/move-temp", "path": "/guiTransformByType/*"},
+	{"side": "Server", "file": "game:itemtypes/toolhead/spearhead", "op": "move", "frompath": "/fpHandTransformByType/*", "path": "/move-temp"},
+	{
+		"side": "Server",
+		"file": "game:itemtypes/toolhead/spearhead",
+		"op": "add",
+		"path": "/fpHandTransformByType/*-meteoricsteel",
+		"value": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -23, "y": 127, "z": 81}, "origin": {"x": 0.5, "y": 0.06, "z": 0.51}, "scale": 2.5}
+	},
+	{"side": "Server", "file": "game:itemtypes/toolhead/spearhead", "op": "move", "frompath": "/move-temp", "path": "/fpHandTransformByType/*"},
+	{"side": "Server", "file": "game:itemtypes/toolhead/spearhead", "op": "move", "frompath": "/tpHandTransformByType/*", "path": "/move-temp"},
+	{
+		"side": "Server",
+		"file": "game:itemtypes/toolhead/spearhead",
+		"op": "add",
+		"path": "/tpHandTransformByType/*-meteoricsteel",
+		"value": {"translation": {"x": -0.8, "y": -0.1, "z": -0.6}, "rotation": {"x": -19, "y": -22, "z": -22}, "origin": {"x": 0.5, "y": 0, "z": 0.5}, "scale": 0.82}
+	},
+	{"side": "Server", "file": "game:itemtypes/toolhead/spearhead", "op": "move", "frompath": "/move-temp", "path": "/tpHandTransformByType/*"},
+	{"side": "Server", "file": "game:itemtypes/toolhead/spearhead", "op": "move", "frompath": "/groundTransformByType/*", "path": "/move-temp"},
+	{
+		"side": "Server",
+		"file": "game:itemtypes/toolhead/spearhead",
+		"op": "add",
+		"path": "/groundTransformByType/*-meteoricsteel",
+		"value": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 90, "y": -5, "z": 0}, "origin": {"x": 0.5, "y": 0.05, "z": 0.52}, "scale": 4.63}
+	},
+	{"side": "Server", "file": "game:itemtypes/toolhead/spearhead", "op": "move", "frompath": "/move-temp", "path": "/groundTransformByType/*"},
+	// Sword - Arming
+	{
+		"file": "armory:itemtypes/weapons/sword-arming",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-arming",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "armory:swords/sword-arming14-{type}" } }
+	},
+    {
+		"file": "armory:itemtypes/weapons/sword-arming",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/groundStorageTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0.5, "y": 0.1, "z": 0.35}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6} }
+	},
+    {
+		"file": "armory:itemtypes/weapons/sword-arming",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/toolrackStorageTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}} }
+	},
+    {
+		"file": "armory:itemtypes/weapons/sword-arming",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.8, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-arming",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypesByType",
+		"value": { "*-meteoricsteel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}] }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-arming",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750 }
+	},
+	// Sword - Great
+	{
+		"file": "armory:itemtypes/weapons/sword-great",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-great",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "armory:swords/sword-great-{type}" } }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-great",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/Attack/DamageTypesByType",
+		"value": { "*-meteoricsteel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 8}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}] }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-great",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/Riposte/DamageTypesByType",
+		"value": { "*-meteoricsteel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 7, "Damage": 8}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}] }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-great",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/BlockBash/DamageTypesByType",
+		"value": { "*-meteoricsteel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.8, 0, 0.5]}] }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-great",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750 }
+	},
+	// Sword - Long
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/groundStorageTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0.5, "y": 0.24, "z": 0.3}, "rotation": {"x": 11, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/toolrackTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 1.2, "y": 0, "z": 0.5}, "rotation": {"x": 90, "y": 180, "z": 0}, "origin": {"x": 0, "y": 0, "z": 0}} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": {"base": "armory:swords/sword-long-plain"} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/behaviorsByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/behaviorsByType",
+		"value": {
+			"*-meteoricsteel": [
+				{
+					"name": "GroundStorable",
+					"properties": {
+						"layout": "WallHalves",
+						"wallOffY": 2,
+						"sprintKey": true,
+						"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+						"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+					}
+				},
+				{
+					"name": "CombatOverhaul:TexturesFromAttributes",
+					"properties": {
+						"Textures": [
+							{
+								"Code": "handle",
+								"Attribute": "handleTexture",
+								"Default": "game:block/leather/plain",
+								"HandbookValues": [
+									"game:block/leather/plain",
+									"game:block/leather/black",
+									"game:block/leather/blue",
+									"game:block/leather/chromium",
+									"game:block/leather/gray",
+									"game:block/leather/green",
+									"game:block/leather/orange",
+									"game:block/leather/pink",
+									"game:block/leather/purple",
+									"game:block/leather/red",
+									"game:block/leather/white",
+									"game:block/leather/yellow"
+								]
+							}
+						],
+					"CreativeTabs": ["general", "armory-colors"]
+					}
+				}
+			],
+			"*": [
+				{
+					"name": "GroundStorable",
+					"properties": {
+						"layout": "WallHalves",
+						"wallOffY": 2,
+						"sprintKey": true,
+						"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+						"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+					}
+				},
+				{
+					"name": "CombatOverhaul:TexturesFromAttributes",
+					"properties": {
+					"Textures": [
+						{
+							"Code": "handle",
+							"Attribute": "handleTexture",
+							"Default": "game:block/wood/debarked/oak",
+							"HandbookValues": [
+								"game:block/wood/debarked/aged",
+								"game:block/wood/debarked/birch",
+								"game:block/wood/debarked/oak",
+								"game:block/wood/debarked/maple",
+								"game:block/wood/debarked/pine",
+								"game:block/wood/debarked/acacia",
+								"game:block/wood/debarked/kapok",
+								"game:block/wood/debarked/baldcypress",
+								"game:block/wood/debarked/larch",
+								"game:block/wood/debarked/redwood",
+								"game:block/wood/debarked/ebony",
+								"game:block/wood/debarked/walnut",
+								"game:block/wood/debarked/purpleheart"
+							]
+						}
+					],
+					"CreativeTabs": ["general", "armory-colors"]
+					}
+				}
+			]
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/AttackAnimationByType",
+		"value": {
+			"*-meteoricsteel": {"Main": ["armory:sword-long-thrust-1h-1", "armory:sword-long-thrust-1h-2", "armory:sword-long-thrust-1h-3"]}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypesByType",
+		"value": {
+			"*-meteoricsteel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 6}, "Knockback": 0, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.1, 0, 0.5]}]
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/AttackAnimationByType",
+		"value": {
+			"*-meteoricsteel": {
+				"Top": ["armory:sword-long-slash-2h-top"],
+				"Left": ["armory:sword-long-slash-2h-left"],
+				"Right": ["armory:sword-long-slash-2h-right"],
+				"Bottom": ["armory:sword-long-thrust-2h-bottom"]
+			}
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/TwoHandedStance/Attack/DamageTypesByType",
+		"value": {
+			"*-meteoricsteel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 7}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.5, 0, 0.5, 3.1, 0, 0.5]}]
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750 }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-long",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": {
+			"*-meteoricsteel": {
+				"translation": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 40, "y": 0, "z": -52},
+				"origin": {"x": 0.7, "y": -0.25, "z": 0},
+				"scaleXyz": {"x": -1.77, "y": 1.77, "z": 1.77}
+			}
+		}
+	},
+	// Sword - Short
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/2/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/behaviorsByType/*"
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/behaviorsByType",
+		"value": {
+			"*-meteoricsteel": [
+				{
+					"name": "GroundStorable",
+					"properties": {
+					"layout": "WallHalves",
+					"wallOffY": 2,
+					"sprintKey": true,
+					"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+					"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+					}
+				},
+				{
+					"name": "CombatOverhaul:TexturesFromAttributes",
+					"properties": {
+						"Textures": [
+							{
+								"Code": "handle",
+								"Attribute": "handleTexture",
+								"Default": "game:block/leather/plain",
+								"HandbookValues": [
+									"game:block/leather/plain",
+									"game:block/leather/black",
+									"game:block/leather/blue",
+									"game:block/leather/chromium",
+									"game:block/leather/gray",
+									"game:block/leather/green",
+									"game:block/leather/orange",
+									"game:block/leather/pink",
+									"game:block/leather/purple",
+									"game:block/leather/red",
+									"game:block/leather/white",
+									"game:block/leather/yellow"
+								]
+							}
+						],
+						"CreativeTabs": ["general", "armory-colors"]
+					}
+				}
+			],
+			"*": [
+				{
+					"name": "GroundStorable",
+					"properties": {
+						"layout": "WallHalves",
+						"wallOffY": 2,
+						"sprintKey": true,
+						"selectionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 1, "y2": 0.1, "z2": 1},
+						"collisionBox": {"x1": 0, "y1": 0, "z1": 0, "x2": 0, "y2": 0, "z2": 0}
+					}
+				},
+				{
+					"name": "CombatOverhaul:TexturesFromAttributes",
+					"properties": {
+						"Textures": [
+							{
+								"Code": "handle",
+								"Attribute": "handleTexture",
+								"Default": "game:block/wood/debarked/oak",
+								"HandbookValues": [
+									"game:block/wood/debarked/aged",
+									"game:block/wood/debarked/birch",
+									"game:block/wood/debarked/oak",
+									"game:block/wood/debarked/maple",
+									"game:block/wood/debarked/pine",
+									"game:block/wood/debarked/acacia",
+									"game:block/wood/debarked/kapok",
+									"game:block/wood/debarked/baldcypress",
+									"game:block/wood/debarked/larch",
+									"game:block/wood/debarked/redwood",
+									"game:block/wood/debarked/ebony",
+									"game:block/wood/debarked/walnut",
+									"game:block/wood/debarked/purpleheart"
+								]
+							}
+						],
+						"CreativeTabs": ["general", "armory-colors"]
+					}
+				}
+			]
+		}
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "armory:swords/sword-arming-{type}" } }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/groundStorageTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0.5, "y": 0.1, "z": 0.35}, "rotation": {"x": 13, "y": 0, "z": 90}, "origin": {"x": 0, "y": 0, "z": 0}, "scale": 0.6} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/toolrackTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 1.3, "y": 1.05, "z": 0.5}, "rotation": {"x": 90, "y": 0, "z": 180}, "origin": {"x": 0, "y": 0, "z": 0}} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/Attack/DamageTypesByType",
+		"value": { "*-meteoricsteel": [{"Damage": {"DamageType": "SlashingAttack", "Tier": 6, "Damage": 6}, "Knockback": 1, "DurabilityDamage": 1, "Collider": [0.6, 0, 0.5, 2.6, 0, 0.5]}] }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/attributes/OneHandedStance/AttackAnimationByType",
+		"value": { "*-meteoricsteel": {"Main": ["armory:sword-short-thrust-4", "armory:sword-short-thrust-5", "armory:sword-short-thrust-6"]} }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "*-meteoricsteel": 2750 }
+	},
+	{
+		"file": "armory:itemtypes/weapons/sword-short",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": 40, "y": 0, "z": -52}, "origin": {"x": 0.8, "y": -0.25, "z": 0}, "scaleXyz": {"x": -2, "y": 2, "z": 2}} }
+	}
+]

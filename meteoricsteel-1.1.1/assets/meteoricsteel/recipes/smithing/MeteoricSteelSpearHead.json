@@ -1,0 +1,14 @@
+{
+	"dependsOn": [ { "modid": "combatoverhaul" } ],
+	"ingredient": { "type": "item", "code": "game:ingot-meteoricsteel" },
+	"pattern": [[
+		"____####",
+		"_#####__",
+		"#######_",
+		"#######_",
+		"_#####__",
+		"____####"
+	]],
+	"name": "SpearHeadMeteoricSteel",
+	"output": { "type": "item", "code": "game:spearhead-meteoricsteel"  }
+}

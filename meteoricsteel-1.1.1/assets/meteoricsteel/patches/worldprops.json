@@ -1,0 +1,36 @@
+[
+  {
+    "file": "game:worldproperties/block/toolmetal",
+    "op": "addmerge",
+    "path": "/variants",
+    "value": [ { "code": "meteoricsteel" } ]
+  },
+  {
+    "file": "game:worldproperties/block/metal",
+    "op": "addmerge",
+    "path": "/variants",
+    "value": [ {
+      "code": "meteoricsteel",
+      "meltPoint": 1490,
+      "boilPoint": 2980,
+      "density": 7900,
+      "specificHeatCapacity": 0.51,
+      "elemental": false,
+      "tier": 4
+    } ]
+  },
+  {
+    "file": "game:worldproperties/block/metal",
+    "op": "addmerge",
+    "path": "/variants",
+    "value": [ {
+      "code": "meteoricpigiron",
+      "meltPoint": 1590,
+      "boilPoint": 3180,
+      "density": 8000,
+      "specificHeatCapacity": 0.51,
+      "elemental": false,
+      "tier": 4
+    } ]
+  }
+]

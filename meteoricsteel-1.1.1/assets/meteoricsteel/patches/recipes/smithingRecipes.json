@@ -1,0 +1,129 @@
+[
+  { 
+    "file": "game:recipes/smithing/6arrowhead",
+    "op": "addmerge",
+    "path": "/ingredient/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  { 
+    "file": "game:recipes/smithing/9arrowhead",
+    "op": "addmerge",
+    "path": "/ingredient/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/smithing/axe",
+    "op": "addmerge",
+    "path": "/ingredient/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/smithing/blade-falx", 
+    "op":"addmerge",
+    "path": "/ingredient/allowedVariants",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:recipes/smithing/chain",
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/chisel",      
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/cleaver",     
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/hammer",      
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/hoe",         
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/knife",       
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/nails",       
+    "op": "addmerge", 
+    "path": "/0/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/nails",       
+    "op": "addmerge", 
+    "path": "/1/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/pickaxe",
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/pickaxe",     
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/plate",       
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/prospectingpick",
+    "op":"addmerge",
+    "path":"/ingredient/allowedVariants",
+    "value":[ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/saw",         
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/scale",       
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/scythe",      
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/shears",      
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  },
+  { 
+    "file": "game:recipes/smithing/shovel",      
+    "op": "addmerge", 
+    "path": "/ingredient/allowedVariants", 
+    "value": [ "meteoricsteel" ] 
+  }
+
+]

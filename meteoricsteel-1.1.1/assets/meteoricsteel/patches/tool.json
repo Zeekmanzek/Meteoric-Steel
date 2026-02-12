@@ -1,0 +1,449 @@
+[
+  // Arrow
+  {
+    "file": "game:itemtypes/tool/arrow",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/arrow",
+    "op": "addmerge",
+    "path": "/attributes/damageByType/*-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/arrow",
+    "op": "addmerge",
+    "path": "/attributes/breakChanceOnImpactByType/*-meteoricsteel",
+    "value": 0.07
+  },
+  // Axe-Metal
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/shapeByType/axe-felling-meteoricsteel",
+    "value": { "base": "item/tool/axe/iron" }
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/tooltierbytype/*-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/axe-felling-meteoricsteel",
+    "value": { "wood": 13.5, "plant": 6.5, "leaves": 4.4 }
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/durabilitybytype/axe-felling-meteoricsteel",
+    "value": 2400
+  },
+  {
+    "file": "game:itemtypes/tool/axe-metal",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/axe-felling-meteoricsteel",
+    "value": 4.5
+  },
+  // Blade
+  {
+    "file": "game:itemtypes/tool/blade",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/blade",
+    "op": "addmerge",
+    "path": "/texturesByType",
+    "value": {
+      "blade-falx-meteoricsteel": {
+        "falxstring": { "base": "block/transparent" },
+        "thongs": { "base": "block/transparent" },
+        "woodguard": { "base": "block/transparent" },
+        "handle":  { "base": "block/wood/debarked/veryaged" },
+        "falxblade":  { "base": "block/metal/ingot/meteoricsteel" },
+        "cloth":  { "base": "block/transparent" },
+        "handguard":  { "base": "block/metal/sheet/meteoriciron1" },
+        "spinerivet":  { "base": "block/metal/sheet/gold1" },
+        "pips":  { "base": "block/transparent" }
+      }
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/blade",
+    "op": "addmerge",
+    "path": "/tooltierbytype",
+    "value": { "*-meteoricsteel": 5 }
+  },
+  {
+    "file": "game:itemtypes/tool/blade",
+    "op": "addmerge",
+    "path": "/attackpowerbytype",
+    "value": { "blade-falx-meteoricsteel": 5.5 }
+  },
+  {
+    "file": "game:itemtypes/tool/blade",
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": { "blade-falx-meteoricsteel": 2750 }
+  },
+  { 
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "dependsOn": [ { "modid": "combatoverhaul" } ],
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "dependsOn": [ { "modid": "combatoverhaul" } ],
+    "op": "addmerge",
+    "path": "/durabilitybytype",
+    "value": { "blade-falx-meteoricsteel": 2750 }
+  },
+  {
+    "file": "game:itemtypes/combatoverhaul/sword",
+    "dependsOn": [ { "modid": "combatoverhaul" } ],
+    "op": "addmerge",
+    "path": "/attributes/OneHandedStanceByType/*-falx-*/Attack/DamageTypes/0/DamageByType",
+    "value": { "blade-falx-meteoricsteel": {"DamageType": "SlashingAttack", "Tier": 7, "Damage": 5.5}}
+  },
+  // Chisel
+  {
+    "file": "game:itemtypes/tool/chisel",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/chisel",
+    "op": "addmerge",
+    "path": "/durabilitybytype/chisel-meteoricsteel",
+    "value": 8400
+  },
+  // Cleaver
+  {
+    "file": "game:itemtypes/tool/cleaver",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/cleaver",
+    "op": "addmerge",
+    "path": "/durabilitybytype/cleaver-meteoricsteel",
+    "value": 2375
+  },
+  {
+    "file": "game:itemtypes/tool/cleaver",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/cleaver-meteoricsteel",
+    "value": 2.85
+  },
+  // Hammer
+  {
+    "file": "game:itemtypes/tool/hammer",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/hammer",
+    "op": "addmerge",
+    "path": "/tooltierbytype/*-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/hammer",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hammer-meteoricsteel",
+    "value": 5250
+  },
+  {
+    "file": "game:itemtypes/tool/hammer",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hammer-meteoricsteel",
+    "value": 2.7
+  },
+  // Hoe
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/attributes/groundStorageTransformByType/@hoe-meteoricsteel",
+    "value": { "translation": { "x": 0, "y": 0.04, "z": -0.25 }, "rotation": { "x": 23, "y": 87, "z": -90 }, "scale": 0.88 }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/attributes/toolrackTransformByType/@hoe-meteoricsteel",
+    "value": { "rotation": { "y": 1, "z": -1 }, "translation": { "x": -0.25, "y": 0.6 }, "scale": 1.25 }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/shapeByType/*-meteoricsteel",
+    "value": { "base": "item/tool/hoe-copper" }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/texturesByType/@hoe-meteoricsteel",
+    "value": { "material": { "base": "block/metal/ingot/{material}" } }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/hoe-meteoricsteel",
+    "value": { "soil": 5.5 }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/durabilitybytype/hoe-meteoricsteel",
+    "value": 1500
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/hoe-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/guiTransformByType/@hoe-meteoricsteel",
+    "value": { "rotate": false, "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": -56, "y": -127, "z": -180 }, "origin": { "x": 0.35, "y": 0, "z": 0.55 }, "scale": 1.43 }
+  },
+  {
+    "file": "game:itemtypes/tool/hoe",
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/@hoe-meteoricsteel",
+    "value": { "translation": { "x": -1, "y": -0.5, "z": -0.08 }, "rotation": { "x": 90, "y": 0, "z": -5 }, "scale": 1 }
+  },
+  // Knife
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/attributes/groundStorageTransformByType/@knife-generic-meteoricsteel",
+    "value": {
+      "translation": { "x": 0, "y": 0.01, "z": -0.074 },
+      "rotation": { "x": 26, "y": 88, "z": -87 },
+      "scale": 1
+    }
+  },
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/durabilitybytype/knife-generic-meteoricsteel",
+    "value": 3000
+  },
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/knife-generic-meteoricsteel",
+    "value": { "plant": 2.5 }
+  },
+  {
+    "file": "game:itemtypes/tool/knife",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/knife-generic-meteoricsteel",
+    "value": 4.5
+  },
+  // Pickaxe
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/tooltierbytype/*-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/pickaxe-meteoricsteel",
+    "value": { "ceramic": 3.75, "stone": 10, "ore": 10, "metal": 10, "ice": 4.5 }
+  },
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/pickaxe-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/pickaxe",
+    "op": "addmerge",
+    "path": "/durabilitybytype/pickaxe-meteoricsteel",
+    "value": 3250
+  },
+  // Prospecting Pick
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/tooltierbytype/*-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/prospectingpick-meteoricsteel",
+    "value": { "stone": 6, "ore": 6, "metal": 6 }
+  },
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/prospectingpick-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/prospectingpick",
+    "op": "addmerge",
+    "path": "/durabilitybytype/prospectingpick-meteoricsteel",
+    "value": 2250
+  },
+  // Saw
+  {
+    "file": "game:itemtypes/tool/saw",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/saw",
+    "op": "addmerge",
+    "path": "/tooltierbytype/saw-meteoricsteel",
+    "value": 5
+  },
+  {
+    "file": "game:itemtypes/tool/saw",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/*-meteoricsteel",
+    "value": { "wood": 6.5, "leaves": 4.5 }
+  },
+  {
+    "file": "game:itemtypes/tool/saw",
+    "op": "addmerge",
+    "path": "/durabilitybytype/saw-meteoricsteel",
+    "value": 3000
+  },
+  // Scythe
+  {
+    "file": "game:itemtypes/tool/scythe",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/scythe",
+    "op": "addmerge",
+    "path": "/durabilitybytype/scythe-meteoricsteel",
+    "value": 4500
+  },
+  // Shears
+  {
+    "file": "game:itemtypes/tool/shears",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/shears",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shears-meteoricsteel",
+    "value": 3.75
+  },
+  {
+    "file": "game:itemtypes/tool/shears",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shears-meteoricsteel",
+    "value": 11250
+  },
+  // Shovel
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/shapeByType/shovel-meteoricsteel",
+    "value": { "base": "item/tool/shovel-copper" }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/miningspeedbytype/shovel-meteoricsteel",
+    "value": { "soil": 8, "sand": 8, "gravel": 4.75, "snow": 4.75 }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/attackpowerbytype/shovel-meteoricsteel",
+    "value": 2.75
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/durabilitybytype/shovel-meteoricsteel",
+    "value": 3500
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/guiTransformByType/@shovel-meteoricsteel",
+    "value": { "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": -113, "y": -147, "z": 139 }, "origin": { "x": 0.2, "y": 0.7, "z": 0.8 } }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "move",
+    "frompath": "/attributes/groundStorageTransformByType/*",
+    "path": "/move-temp"
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "addmerge",
+    "path": "/attributes/groundStorageTransformByType/@shovel-meteoricsteel",
+    "value": { "translation": { "x": 0, "y": 0.59, "z": -0.15 }, "rotation": { "x": 13, "y": 88, "z": -87 }, "scale": 0.88 }
+  },
+  {
+    "file": "game:itemtypes/tool/shovel",
+    "op": "move",
+    "frompath": "/move-temp",
+    "path": "/attributes/groundStorageTransformByType/*"
+  }
+]

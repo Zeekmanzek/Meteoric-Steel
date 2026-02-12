@@ -1,0 +1,308 @@
+[
+  // Arrowhead
+  {
+    "file": "game:itemtypes/toolhead/arrowhead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/toolhead/arrowhead",
+    "op": "addmerge",
+    "path": "/shapeByType/*-meteoricsteel",
+    "value": { "base": "item/tool/arrowhead-copper" }
+  },
+  // Axehead
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "remove",
+    "path": "/shapeByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "addmerge",
+    "path": "/shapeByType/*-meteoricsteel",
+    "value": { "base": "item/tool/axe/iron" }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "addmerge",
+    "path": "/shapeByType/*",
+    "value": { "base": "item/tool/axe/stone" }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "addmerge",
+    "path": "/attributes/onTongTransformByType/@axehead-(gold|silver|iron|meteoriciron|steel|meteoricsteel)",
+    "value": {
+      "translation": { "x": -1.4, "y": -0.9, "z": -0.03 },
+      "rotation": { "x": 97, "y": 18, "z": -81 }
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "remove",
+    "path": "/attributes/onTongTransformByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "addmerge",
+    "path": "/attributes/onTongTransformByType/*",
+    "value": {
+      "translation": { "x": -0.4, "y": -0.8, "z": -0.53 },
+      "rotation": { "x": 37, "y": 0, "z": -2 }
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "addmerge",
+    "path": "/guiTransformByType/@*-(gold|silver|iron|meteoriciron|steel|meteoricsteel)",
+    "value": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": -57, "y": -119, "z": -172 },
+      "origin": { "x": 0.97, "y": -0.07, "z": 0.5 },
+      "scale": 2.8
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "remove",
+    "path": "/guiTransformByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/axehead",
+    "op": "addmerge",
+    "path": "/guiTransformByType/*",
+    "value": {
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": -73, "y": -117, "z": -19 },
+      "origin": { "x": 1.06, "y": -0.02, "z": 0.43 },
+      "scale": 3.69
+    }
+  },
+  // Bladehead
+   {
+    "file": "game:itemtypes/toolhead/bladehead",
+    "op": "addmerge",
+    "path": "/variantgroups/1/states",
+    "value": [ "meteoricsteel" ]
+  },
+  // Hammerhead
+  {
+    "file": "game:itemtypes/toolhead/hammerhead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  // Hoehead
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "remove",
+    "path": "/shapeByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/shapeByType/*-meteoricsteel",
+    "value": { "base": "item/tool/hoe-copper" }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/shapeByType/*",
+    "value": { "base": "item/tool/hoe-stone" }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/guiTransformByType/@hoehead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel|meteoricsteel)",
+    "value": {
+      "rotate": false,
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": -52, "y": -131, "z": -180 },
+      "origin": { "x": 0.93, "y": 0, "z": 0.5 },
+      "scale": 3.76
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "remove",
+    "path": "/guiTransformByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/hoehead",
+    "op": "addmerge",
+    "path": "/guiTransformByType/*",
+    "value": {
+      "rotate": false,
+      "translation": { "x": 0, "y": 0, "z": 0 },
+      "rotation": { "x": -63, "y": -128, "z": -131 },
+      "origin": { "x": 1, "y": 0, "z": 0.46 },
+      "scale": 3.76
+    }
+  },
+  // Knifeblade
+  {
+    "file": "game:itemtypes/toolhead/knifeblade",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/toolhead/knifeblade",
+    "op": "addmerge",
+    "path": "/shapeByType/knifeblade-meteoricsteel",
+    "value": { "base": "item/tool/knife/copper" }
+  },
+  { "file": "game:itemtypes/toolhead/knifeblade",
+    "op": "remove",
+    "path": "/shapeByType/*" 
+  },
+  { "file": "game:itemtypes/toolhead/knifeblade",
+    "op": "addmerge",
+    "path": "/shapeByType/*",
+    "value": { "base": "item/tool/knife/stoneblade" }
+  },
+  // Pickaxehead
+  {
+    "file": "game:itemtypes/toolhead/pickaxehead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  // Prospecting Pickhead
+  {
+    "file": "game:itemtypes/toolhead/prospectingpickhead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  // Sawblade
+  {
+    "file": "game:itemtypes/toolhead/sawblade",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  // Scythehead
+  {
+    "file": "game:itemtypes/toolhead/scythehead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  // Shovelhead
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "addmerge",
+    "path": "/variantgroups/0/states",
+    "value": [ "meteoricsteel" ]
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "remove",
+    "path": "/shapeByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "addmerge",
+    "path": "/shapeByType/*-meteoricsteel",
+    "value": { "base": "item/tool/shovelhead-copper" }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "addmerge",
+    "path": "/shapeByType/*",
+    "value": { "base": "item/tool/shovel-stone" }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "addmerge",
+    "path": "/fpHandTransformByType/@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel|meteoricsteel)",
+    "value": {
+      "translation": { "x": -0.25, "y": -0.1, "z": 0 },
+      "rotation": { "x": 3, "y": 15, "z": 90 },
+      "scale": 2.5
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "remove",
+    "path": "/fpHandTransformByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "addmerge",
+    "path": "/fpHandTransformByType/*",
+    "value": {
+      "translation": { "x": -0.04, "y": -0.9, "z": 0 },
+      "rotation": { "x": 3, "y": 15, "z": 90 },
+      "scale": 2.5
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "addmerge",
+    "path": "/guiTransformByType/@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|steel|meteoricsteel)",
+    "value": {
+      "rotate": false,
+      "translation": { "x": 0, "y": 0, "z": 4 },
+      "rotation": { "x": 141, "y": 33, "z": -38 },
+      "origin": { "x": 0.52, "y": 0.29, "z": 0.3 },
+      "scale": 2.24
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "remove",
+    "path": "/guiTransformByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "addmerge",
+    "path": "/guiTransformByType/*",
+    "value": {
+      "translation": { "x": 0, "y": 0, "z": 120 },
+      "rotation": { "x": -45, "y": -134, "z": -180 },
+      "origin": { "x": 0.87, "y": 0.55, "z": 0.2 },
+      "scale": 3
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/@shovelhead-(copper|tinbronze|bismuthbronze|blackbronze|iron|meteoriciron|gold|silver|meteoricsteel)",
+    "value": {
+      "translation": { "x": -0.7, "y": -0.6, "z": -0.1 },
+      "rotation": { "x": 90, "y": 20, "z": 0 },
+      "scale": 0.85
+    }
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "remove",
+    "path": "/tpHandTransformByType/*"
+  },
+  {
+    "file": "game:itemtypes/toolhead/shovelhead",
+    "op": "addmerge",
+    "path": "/tpHandTransformByType/*",
+    "value": {
+      "translation": { "x": 0, "y": -0.4, "z": -0.1 },
+      "rotation": { "x": 90, "y": 20, "z": 0 },
+      "scale": 0.85
+    }
+  }
+]
