@@ -1,0 +1,677 @@
+[
+	// Armor
+	// Chain
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/T/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/H/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/6/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/6/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/7/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/7/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/8/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/chain",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/8/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Plate
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/T/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/H/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/L/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/5/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/6/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/6/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/7/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/7/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/8/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/8/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Riveted
+	{
+		"file": "armory:recipes/grid/armor/riveted",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/riveted",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/M/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/riveted",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/riveted",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Scale
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/T/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/F/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/3/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/A/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/armor/scale",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/P/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Weapons
+	// Clubs
+	{
+		"file": "armory:recipes/grid/weapons/clubs",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/1/ingredients/S/code",
+		"value": "armory:part-hammerhead-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/clubs",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/S/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/clubs",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/S/name",
+		"value": "metal"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/clubs",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/1/output/code",
+		"value": "armory:club-plain-{metal}"
+	},
+	// Halberd
+	{
+		"file": "armory:recipes/grid/weapons/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Javelins
+	{
+		"file": "armory:recipes/grid/weapons/javelins",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Longaxe
+	{
+		"file": "armory:recipes/grid/weapons/longaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Maces
+	{
+		"file": "armory:recipes/grid/weapons/maces",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/0/ingredients/S/code",
+		"value": "armory:part-hammerhead-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/maces",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/maces",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/S/name",
+		"value": "metal"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/maces",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/0/output/code",
+		"value": "armory:mace-plain-{metal}"
+	},
+	// Pikes
+	{
+		"file": "armory:recipes/grid/weapons/pikes",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Poleaxe
+	{
+		"file": "armory:recipes/grid/weapons/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Quarterstaff
+	{
+		"file": "armory:recipes/grid/weapons/quarterstaff",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Sabre
+	{
+		"file": "armory:recipes/grid/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/0/ingredients/B/code",
+		"value": "armory:part-sabre-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/B/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/B/name",
+		"value": "material"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/0/output/code",
+		"value": "armory:sabre-plain-{material}"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/2/ingredients/B/code",
+		"value": "armory:part-sabre-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/name",
+		"value": "material"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/2/output/code",
+		"value": "armory:sabre-plain-{material}"
+	},
+	// Spears
+	{
+		"file": "armory:recipes/grid/weapons/spears",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredients/S/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Swords
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/1/ingredients/B/code",
+		"value": "armory:part-shortsword-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/B/name",
+		"value": "material"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredients/B/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/1/output/code",
+		"value": "armory:sword-short-plain-{material}"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/2/ingredients/B/code",
+		"value": "armory:part-shortsword-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/name",
+		"value": "material"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredients/B/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/2/output/code",
+		"value": "armory:sword-short-plain-{material}"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/4/ingredients/S/code",
+		"value": "armory:part-longsword-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/4/ingredients/S/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/4/output/code",
+		"value": "armory:sword-long-plain-{material}"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/8/ingredients/B/code",
+		"value": "armory:part-longsword-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/8/ingredients/B/name",
+		"value": "material"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/8/ingredients/B/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/8/output/code",
+		"value": "armory:sword-long-plain-{material}"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/7/ingredients/B/code",
+		"value": "armory:part-greatsword-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/7/ingredients/B/name",
+		"value": "material"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/7/ingredients/B/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/7/output/code",
+		"value": "armory:sword-great-plain-{material}"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/11/ingredients/B/code",
+		"value": "armory:part-greatsword-*"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/11/ingredients/B/name",
+		"value": "material"
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/11/ingredients/B/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/grid/weapons/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/11/output/code",
+		"value": "armory:sword-great-plain-{material}"
+	}
+]

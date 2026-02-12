@@ -1,0 +1,203 @@
+[
+	// Greatsword
+	{
+		"file": "armory:itemtypes/parts/greatsword",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/parts/greatsword",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": {"base": "armory:swords/parts/sword-great"} }
+	},
+	// Halberd
+	{
+		"file": "armory:itemtypes/parts/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/parts/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shape"
+	},
+	{
+		"file": "armory:itemtypes/parts/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-meteoricsteel": { "base": "armory:halberds/parts/halberd-steel-plain" },
+			"*": { "base": "armory:halberds/parts/halberd-{material}-plain" }
+		}
+	},
+	{
+		"file": "armory:itemtypes/parts/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/textures",
+		"value": {
+			"head": { "base": "game:block/metal/plate/{material}" }
+		}
+	},
+	// Hammer Head
+	{
+		"file": "armory:itemtypes/parts/hammerhead",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	// Javelin Head
+	{
+		"file": "armory:itemtypes/parts/javelinhead",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/parts/javelinhead",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shapeByType/*"
+	},
+	{
+		"file": "armory:itemtypes/parts/javelinhead",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-meteoricsteel": { "base": "armory:spears/parts/javelin-steel-plain.json" },
+			"*": { "base": "armory:spears/parts/javelin-flint-plain.json" }
+		}
+	},
+	{
+		"file": "armory:itemtypes/parts/javelinhead",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/guiTransformByType/*"
+	},
+	{
+		"file": "armory:itemtypes/parts/javelinhead",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": {
+			"*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -53, "y": -39, "z": -8}, "origin": {"x": -0.1, "y": 0.1, "z": -0.5}, "scale": 2.5},
+			"*": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -53, "y": -39, "z": -8}, "origin": {"x": -0.2, "y": 0.25, "z": -0.4}, "scale": 3.41}
+		}
+	},
+	// Longaxe
+	{
+		"file": "armory:itemtypes/parts/longaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/parts/longaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "armory:axes/parts/long-steel" } }
+	},
+	// Longsword
+	{
+		"file": "armory:itemtypes/parts/longsword",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/parts/longsword",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": {"base": "armory:swords/parts/sword-long" } }
+	},
+	{
+		"file": "armory:itemtypes/parts/longsword",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -36, "y": 135, "z": -6}, "origin": {"x": 0.9799, "y": 0.7, "z": 1.2}, "scale": 1.87} }
+	},
+	// Poleaxe
+	{
+		"file": "armory:itemtypes/parts/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/parts/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "remove",
+		"path": "/shape"
+	},
+	{
+		"file": "armory:itemtypes/parts/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": {
+			"*-meteoricsteel": { "base": "armory:axes/parts/poleaxe-steel" },
+			"*": { "base": "armory:axes/parts/poleaxe-{material}" }
+		}
+	},
+	// Sabre
+	{
+		"file": "armory:itemtypes/parts/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/parts/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "armory:swords/parts/sabre-steel" } }
+	},
+	{
+		"file": "armory:itemtypes/parts/sabre",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -36, "y": 135, "z": -6}, "origin": {"x": 0.9799, "y": 0.6, "z": 0.9}, "scale": 2.1} }
+	},
+	// Short Sword
+	{
+		"file": "armory:itemtypes/parts/shortsword",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/1/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:itemtypes/parts/shortsword",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/shapeByType",
+		"value": { "*-meteoricsteel": { "base": "armory:swords/parts/sword-arming" } }
+	},
+	{
+		"file": "armory:itemtypes/parts/shortsword",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/guiTransformByType",
+		"value": { "*-meteoricsteel": {"translation": {"x": 0, "y": 0, "z": 0}, "rotation": {"x": -34, "y": 129, "z": -7}, "origin": {"x": 0.9799, "y": 0.4, "z": 0.9}, "scale": 2.17} }
+	}
+]

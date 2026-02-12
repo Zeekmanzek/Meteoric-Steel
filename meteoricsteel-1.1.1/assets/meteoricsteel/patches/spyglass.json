@@ -1,0 +1,37 @@
+[
+	{
+		"file": "spyglass:itemtypes/spyglass",
+		"dependsOn": [ { "modid": "spyglass" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/0/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "spyglass:itemtypes/spyglass",
+		"dependsOn": [ { "modid": "spyglass" } ],
+		"op": "addmerge",
+		"path": "/tooltierbytype",
+		"value": { "spyglass-meteoricsteel": 5 }
+	},
+	{
+		"file": "spyglass:itemtypes/spyglass",
+		"dependsOn": [ { "modid": "spyglass" } ],
+		"op": "addmerge",
+		"path": "/durabilitybytype",
+		"value": { "spyglass-meteoricsteel": 1500 }
+	},
+	{
+		"file": "spyglass:itemtypes/spytube",
+		"dependsOn": [ { "modid": "spyglass" } ],
+		"op": "addmerge",
+		"path": "/variantgroups/0/states",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "spyglass:recipes/smithing/spytube",
+		"dependsOn": [ { "modid": "spyglass" } ],
+		"op": "addmerge",
+		"path": "/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	}
+]

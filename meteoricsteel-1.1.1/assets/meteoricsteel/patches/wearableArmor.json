@@ -1,0 +1,186 @@
+[
+    {
+        "file": "game:itemtypes/wearable/seraph/armor.json",
+        "op": "addmerge",
+        "path": "/variantgroups/2/states",
+        "value": [ "meteoricsteel" ]
+    },
+    {
+        "file": "game:itemtypes/wearable/seraph/armor.json",
+        "op": "addmerge",
+        "path": "/skipVariants",
+        "value": [
+            "armor-*-improvised-meteoricsteel",
+            "armor-*-jerkin-meteoricsteel",
+            "armor-*-sewn-meteoricsteel",
+            "armor-*-tailored-*-meteoricsteel",
+            "armor-*-brigandine-meteoricsteel",
+            "armor-*-antique-meteoricsteel",
+            "armor-*-lamellar-meteoricsteel"
+        ]
+    },
+    {
+        "file": "game:itemtypes/wearable/seraph/armor.json",
+        "op": "addmerge",
+        "path": "/attributes/protectionModifiersByType/armor-*-chain-meteoricsteel",
+        "value": {
+            "relativeProtection": 0.865,
+            "flatDamageReduction": 1.45,
+            "protectionTier": 4
+        }
+    },
+    {
+        "file": "game:itemtypes/wearable/seraph/armor.json",
+        "op": "addmerge",
+        "path": "/attributes/protectionModifiersByType/armor-*-scale-meteoricsteel",
+        "value": {
+            "relativeProtection": 0.905,
+            "flatDamageReduction": 1.65,
+            "protectionTier": 4
+        }
+    },
+    {
+        "file": "game:itemtypes/wearable/seraph/armor.json",
+        "op": "addmerge",
+        "path": "/attributes/protectionModifiersByType/armor-*-plate-meteoricsteel",
+        "value": {
+            "relativeProtection": 0.972,
+            "flatDamageReduction": 1.82,
+            "highDamageTierResistant": true,
+            "protectionTier": 4
+        }
+    },
+    {
+        "file": "game:itemtypes/wearable/seraph/armor.json",
+        "op": "addmerge",
+        "path": "/durabilityByType/armor-*-chain-meteoricsteel",
+        "value": 2250
+    },
+    {
+        "file": "game:itemtypes/wearable/seraph/armor.json",
+        "op": "addmerge",
+        "path": "/durabilityByType/armor-*-scale-meteoricsteel",
+        "value": 4250
+    },
+    {
+        "file": "game:itemtypes/wearable/seraph/armor.json",
+        "op": "addmerge",
+        "path": "/durabilityByType/armor-*-plate-meteoricsteel",
+        "value": 7000
+    },
+    // CO armor Compatibility
+    {
+		"file": "game:itemtypes/wearable/seraph/armor",
+		"dependsOn": [ { "modid": "combatoverhaul" } ],
+		"op": "addmerge",
+		"path": "/durabilityByType",
+		"value": {
+			"armor-head-brigandine-meteoricsteel": 7500,
+			"armor-head-chain-meteoricsteel": 4500,
+			"armor-head-scale-meteoricsteel": 8500,
+			"armor-head-plate-meteoricsteel": 14000,
+			
+			"armor-body-brigandine-meteoricsteel": 22500,
+			"armor-body-chain-meteoricsteel": 13500,
+			"armor-body-scale-meteoricsteel": 25500,
+			"armor-body-plate-meteoricsteel": 42000,
+			
+			"armor-legs-brigandine-meteoricsteel": 15000,
+			"armor-legs-chain-meteoricsteel": 9000,
+			"armor-legs-scale-meteoricsteel": 17000,
+			"armor-legs-plate-meteoricsteel": 28000
+		}
+	},
+	{
+    "file": "game:itemtypes/wearable/seraph/armor",
+	"dependsOn": [ { "modid": "combatoverhaul" } ],
+    "op": "addmerge",
+    "path": "/behaviors/0/propertiesByType",
+    "value": {
+		"armor-head-brigandine-meteoricsteel": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 7},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.1, "healingeffectivness": -0.09, "hungerrate": 0.12}
+          },
+          "armor-body-brigandine-meteoricsteel": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 7},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.05, "manipulationSpeed": -0.2, "steadyAim": -0.3, "healingeffectivness": -0.09, "hungerrate": 0.12}
+          },
+          "armor-legs-brigandine-meteoricsteel": {
+            "Layers": ["Outer"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {"PiercingAttack": 7, "SlashingAttack": 7, "BluntAttack": 7},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.2, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.06, "hungerrate": 0.08}
+          },
+          "armor-head-chain-meteoricsteel": {
+            "Layers": ["Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {"PiercingAttack": 3, "SlashingAttack": 5, "BluntAttack": 0},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": 0, "manipulationSpeed": 0, "steadyAim": -0.02, "healingeffectivness": -0.09, "hungerrate": 0.09}
+          },
+          "armor-body-chain-meteoricsteel": {
+            "Layers": ["Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {"PiercingAttack": 3, "SlashingAttack": 5, "BluntAttack": 0},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": 0, "manipulationSpeed": -0.04, "steadyAim": -0.06, "healingeffectivness": -0.09, "hungerrate": 0.09}
+          },
+          "armor-legs-chain-meteoricsteel": {
+            "Layers": ["Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {"PiercingAttack": 3, "SlashingAttack": 5, "BluntAttack": 0},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.04, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.06, "hungerrate": 0.06}
+          },
+          "armor-head-scale-meteoricsteel": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 2},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.06, "healingeffectivness": -0.09, "hungerrate": 0.09}
+          },
+          "armor-body-scale-meteoricsteel": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 2},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.04, "manipulationSpeed": -0.1, "steadyAim": -0.17, "healingeffectivness": -0.09, "hungerrate": 0.09}
+          },
+          "armor-legs-scale-meteoricsteel": {
+            "Layers": ["Outer", "Middle"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {"PiercingAttack": 6, "SlashingAttack": 6, "BluntAttack": 2},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.1, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.06, "hungerrate": 0.06}
+          },
+          "armor-head-plate-meteoricsteel": {
+            "Layers": ["Outer"],
+            "Zones": ["Head", "Neck", "Face"],
+            "Resists": {"PiercingAttack": 9, "SlashingAttack": 7, "BluntAttack": 8},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": 0, "manipulationSpeed": -0.05, "steadyAim": -0.1, "healingeffectivness": -0.09, "hungerrate": 0.12}
+          },
+          "armor-body-plate-meteoricsteel": {
+            "Layers": ["Outer"],
+            "Zones": ["Torso", "Arms", "Hands"],
+            "Resists": {"PiercingAttack": 9, "SlashingAttack": 7, "BluntAttack": 8},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.05, "manipulationSpeed": -0.2, "steadyAim": -0.3, "healingeffectivness": -0.09, "hungerrate": 0.12}
+          },
+          "armor-legs-plate-meteoricsteel": {
+            "Layers": ["Outer"],
+            "Zones": ["Legs", "Feet"],
+            "Resists": {"PiercingAttack": 9, "SlashingAttack": 7, "BluntAttack": 8},
+            "FlatReduction": {},
+            "PlayerStats": {"walkspeed": -0.2, "manipulationSpeed": 0, "steadyAim": 0, "healingeffectivness": -0.06, "hungerrate": 0.08}
+          }
+		}
+	}
+]

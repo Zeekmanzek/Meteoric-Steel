@@ -1,0 +1,11 @@
+{
+  "type": "content",
+  "modid": "meteoricsteel",
+  "name": "Meteoric Steel",
+  "authors": [ "Degen_Andi" ],
+  "description": "Adds a new metal called Meteoric Steel and associated Tools, Weapons, and Armor.",
+  "version": "1.1.1",
+  "dependencies": {
+    "game": "1.21.0"
+  }
+}

@@ -1,0 +1,206 @@
+[
+	// Halberd
+	{
+		"file": "armory:recipes/smithing/halberd",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Javelin Head
+	{
+		"file": "armory:recipes/smithing/javelinhead",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/javelinhead",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Longaxe Head
+	{
+		"file": "armory:recipes/smithing/longaxehead",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Plate
+	{
+		"file": "armory:recipes/smithing/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/3/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/4/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/5/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/6/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/armor/plate",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/7/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	// Poleaxe
+	{
+		"file": "armory:recipes/smithing/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/0/ingredient/code",
+		"value": "game:ingot-*"
+	},
+	{
+		"file": "armory:recipes/smithing/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredient/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredient/name",
+		"value": "metal"
+	},
+	{
+		"file": "armory:recipes/smithing/poleaxe",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/0/output/code",
+		"value": "armory:part-poleaxehead-{metal}"
+	},
+	// Pole Hammer
+	{
+		"file": "armory:recipes/smithing/polehammer",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/0/ingredient/code",
+		"value": "game:ingot-*"
+	},
+	{
+		"file": "armory:recipes/smithing/polehammer",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredient/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/polehammer",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredient/name",
+		"value": "metal"
+	},
+	{
+		"file": "armory:recipes/smithing/polehammer",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/0/output/code",
+		"value": "armory:part-hammerhead-{metal}"
+	},
+	// Shields
+	{
+		"file": "armory:recipes/smithing/shields",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/1/ingredient/code",
+		"value": "game:ingot-*"
+	},
+	{
+		"file": "armory:recipes/smithing/shields",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredient/allowedVariants",
+		"value": [ "steel", "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/shields",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredient/name",
+		"value": "metal"
+	},
+	{
+		"file": "armory:recipes/smithing/shields",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "replace",
+		"path": "/1/output/code",
+		"value": "armory:shield-light-plain-{metal}"
+	},
+	// Swords
+	{
+		"file": "armory:recipes/smithing/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/0/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/1/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/2/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	},
+	{
+		"file": "armory:recipes/smithing/swords",
+		"dependsOn": [ { "modid": "armory" } ],
+		"op": "addmerge",
+		"path": "/3/ingredient/allowedVariants",
+		"value": [ "meteoricsteel" ]
+	}
+]
